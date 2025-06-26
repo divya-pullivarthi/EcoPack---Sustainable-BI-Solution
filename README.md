@@ -128,7 +128,68 @@ Although the current dataset is a single table, we can logically separate the fi
 | month	| Derived month |
 | year	| Derived year |
 
+## **📊 Dashboard Descriptions & Insights**
 
+The EcoPack dashboard was designed to provide business stakeholders and sustainability teams with rich, actionable insights. It allows users to make informed decisions about packaging strategies, reduce environmental impact, and optimize supplier choices. Here's a detailed breakdown of each component:
+
+## **🔍 Dashboard**
+
+![image](https://github.com/user-attachments/assets/8d2cbab3-0196-48cf-bc9a-44d9efd2c1de)
+### **Insights**
+- Provides a consolidated view of packaging cost, carbon footprint, material sustainability, and supplier ESG performance.
+- Helps identify cost inefficiencies and environmental hotspots.
+- Facilitates proactive compliance with EPR/ESG regulations.
+- Supports strategic decision-making through scenario comparisons.
+
+## **🎛 Filters and Control**
+![image](https://github.com/user-attachments/assets/a32685dd-e548-4e29-849c-4f3b1e2dc5e7)
+
+### **Insights**
+- **Material Type Selector:** Filter by Plastic, Compostable, Recyclable or All to compare sustainability performance.
+- **Record Date Slider:** Explore time-based trends for usage, emissions, and cost.
+- **EPR Compliance Flag:** Focus on compliant/non-compliant materials for regulatory tracking.
+
+## **📌 Key Metrics**
+![image](https://github.com/user-attachments/assets/2b0b2497-f146-4870-a209-43133192c1f4)
+
+### **Insights**
+- Average Packaging Cost per Product: Tracks cost-efficiency and budgeting needs.
+- Average Carbon Footprint: Measures average environmental impact across products.
+- Total CO2 Emissions: Summarizes overall footprint and effectiveness of reduction strategies.
+- These KPIs serve as quick-glance indicators of overall operational and environmental performance.
+
+## **💰 Packaging Cost by Product**
+![image](https://github.com/user-attachments/assets/8fdfbcc6-07fa-4fd0-869f-8a19fb9e2573)
+
+### **Insights**
+- **Bar Chart:** Highlights the top 5 products incurring the highest packaging costs.
+- **Insight:** Prioritize optimization efforts on these high-impact products.
+
+✅ EPR Compliance by Material Type
+
+Bar Chart: Shows EPR performance of materials like HDPE, PET, PLA, and more.
+
+Insight: Helps identify low-performing materials for regulatory risks and substitution planning.
+
+🏆 Top Sustainable Supplier by ESG Score
+
+Table View: Ranks suppliers by ESG scores and EPR compliance.
+
+Insight: Supports vendor negotiations and selection based on sustainability values.
+
+🌫 Emissions by Material Type
+
+Bar Chart: Compares carbon footprint across Compostable, Recyclable, and Plastic.
+
+Insight: Identify which materials contribute most to emissions and adjust procurement accordingly.
+
+♻️ Plastic Usage & Recyclability Over Time
+
+Line Chart: Displays trends in material usage (esp. recycled PET) across months.
+
+Insight: Track the progress of recycling efforts and reduction in plastic dependency.
+
+📊 Data Insights
 
 
 

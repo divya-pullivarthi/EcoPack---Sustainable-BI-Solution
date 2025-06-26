@@ -57,7 +57,7 @@ This simulated flow reflects how a real-world pipeline would behave using struct
 
 Due to the unavailability of real-world datasets, synthetic data was created based on research to simulate realistic packaging-related scenarios.
 
-## **2. Preprocessing**
+### **2. Preprocessing**
 
 All preprocessing steps—including cleaning, transformation, and validation—were implemented in the Data_Preprocessing.py file, which is available in this repository.
 
@@ -69,30 +69,64 @@ All preprocessing steps—including cleaning, transformation, and validation—w
 | product_id | Uniqueness check, not null |
 | supplier_id | Valid values (S1-S10), referential integrity with supplier_name |
 | material_weight_kg | Numeric range (≥0), not null |
-| packaging_cost_usd | Numeric range (≥0), outlier detection |
+| packaging_cost_usd | Numeric range (≥0) |
 | recyclable_pct | 0-100, not null |
 | epr_compliant | Only 'Y' or 'N' |
 
-2.  Data Quality Checks
-Column Name		Quality Check
-Missing Values	No cells are empty
-record_date		Format validation (YYYY-MM-DD), no future dates, not null
-product_id	Uniqueness check, not null
-supplier_id	Valid values (S1-S10), referential integrity with supplier_name
-material_weight_kg	Numeric range (≥0), not null
-packaging_cost_usd	Numeric range (≥0), outlier detection
-recyclable_pct	0-100, not null
-epr_compliant	Only 'Y' or 'N'
 
-3. Data Transformation Rules
-Source Column	Transformation Rule	Target Column
-record_date	Standardize date format to YYYY-MM-DD across all rows	record_date
-epr_compliant	Convert 'Y' to TRUE and 'N' to FALSE for boolean compatibility	is_epr_compliant
-material_type	Capitalize first letter only (e.g., 'Plastic', 'Compostable') for consistency	material_type
-material_weight_kg	Round to two decimal places to ensure numeric consistency	material_weight_kg
-packaging_cost_usd	Validate that all values are positive; flag if negative or zero	packaging_cost_usd
-supplier_esg_score	Ensure float values are retained; no transformation if already clean	supplier_esg_score
-product_id, supplier_id	Use as foreign keys for joining with product and supplier dimension tables	product_id, supplier_id
+### **3. Data Model**
+
+#### **Data Source and Structure:**
+The dataset used in this project is synthetically generated based on extensive research and industry knowledge, rather than sourced from existing ERP or supplier systems. As a result, the data is currently structured as a single flat table combining both descriptive attributes (dimensions) and measurable metrics (facts). This approach simplifies data creation and allows for rapid prototyping of the BI solution. Future iterations may involve creating normalized fact and dimension tables if real-world source systems become available.
+
+#### **Conceptual Fact and Dimension Fields**
+Although the current dataset is a single table, we can logically separate the fields into star schema with one fact table and several dimension tables:
+
+#### **3.1 Fact Table**
+**Packaging_Fact**
+| Column Name	 | Description | 
+|:-----------|:------------:|
+| product_id | Foreign Key → Product_Dim |
+| supplier_id | Foreign Key → Supplier_Dim |
+| material | Foreign Key → Material_Dim |
+| record_date | Foreign Key → Date_Dim |
+| material_weight_kg | Total weight of material used |
+| packaging_cost_usd | Cost of packaging |
+| recyclable_pct | Percent recyclable |
+| carbon_footprint_kg | Environmental impact |
+| cost_savings_usd | Cost savings from switching materials |
+
+#### **3.2 Dimension**
+**Product_Dim**
+
+| Column Name	 | Description | 
+|:-----------|:------------:|
+| product_id | Unique ID for each SKU |
+| product_name | Name of the product |
+
+**Supplier_Dim**
+
+| Column Name	 | Description | 
+|:-----------|:------------:|
+|supplier_id	| Unique ID for supplier |
+| supplier_name	| Supplier’s name |
+| supplier_esg_score	| Environmental/Social score |
+| epr_compliant	| Y/N regulatory compliance status |
+
+**Material_Dim**
+
+| Column Name	 | Description | 
+|:-----------|:------------:|
+| material	| Type of packaging material |
+| material_type |	Classification (Plastic, Compostable, etc.) |
+
+**Date_Dim**
+
+| Column Name	 | Description | 
+|:-----------|:------------:|
+|record_date	| Actual date of packaging record |
+| month	| Derived month |
+| year	| Derived year |
 
 
 
@@ -109,10 +143,4 @@ product_id, supplier_id	Use as foreign keys for joining with product and supplie
 
 
 
-Key transformations include:
 
-Dates standardized (YYYY-MM-DD)
-
-Weights and costs validated (non-negative)
-
-Recyclable % and ESG scores normalized

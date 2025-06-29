@@ -192,7 +192,7 @@ Insight: Track the progress of recycling efforts and reduction in plastic depend
 📊 Data Insights
 
 
-
+Tableau Public: https://public.tableau.com/app/profile/divya.pullivarthi/viz/EcoPack_Dashboard1/Dashboard3?publish=yes
 
 
 

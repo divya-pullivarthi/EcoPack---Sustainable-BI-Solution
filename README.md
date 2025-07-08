@@ -181,8 +181,9 @@ This bar chart shows the Extended Producer Responsibility (EPR) compliance rates
 ## **🏆 Top Sustainable Supplier by ESG Score**
 ![image](https://github.com/user-attachments/assets/e86d4cdb-5358-480a-9f5c-9b0f0d4cd294)
 
-- **Table View:** Ranks suppliers by ESG scores and EPR compliance.
-- **Insight:** Supports vendor negotiations and selection based on sustainability values.
+### **Insights**
+This table shows the ranking of suppliers based on their Environmental, Social, and Governance (ESG) score. It offers a valuable view of the sustainability outcome of the supply chain. It will highlight top performers like GreenPlast and RecycleWorks to help in sourcing the right supplier and developing partnership with environmentally friendly suppliers.
+We can use this graph to support vendor negotiations and select them based on the sustainability values.
 
 ## **🌫 Emissions by Material Type**
 ![image](https://github.com/user-attachments/assets/6694cb0a-859f-413c-99c6-637ced458eff)

@@ -133,7 +133,7 @@ Although the current dataset is a single table, we can logically separate the fi
 The EcoPack dashboard was designed to provide business stakeholders and sustainability teams with rich, actionable insights. It allows users to make informed decisions about packaging strategies, reduce environmental impact, and optimize supplier choices. Here's a detailed breakdown of each component:
 
 ## **🔍 Dashboard**
-![image](https://github.com/user-attachments/assets/a0b94b4e-5765-4dca-a1c8-6d1da184bedd)
+![image](https://github.com/user-attachments/assets/825ca9e4-b92f-4971-ab18-43311ce31dd5)
 
 ### **Insights**
 This interactive dashboard offers a rounded and comprehensive view of EcoPack’s sustainable packaging initiatives. It .was designed to assist its team decision-makers in procurement, sustainability, and product management to track relevant metrics, observe trends, and ultimately make data-driven decisions. The dashboard combines data related to financial costs, environmental benefits (e.g., CO2 emissions), legal compliance (e.g., EPR), and supplier performance (e.g., ESG) to help EcoPack seemingly juggle its environmentally responsible goals and objectives with its business asset objectives. Users can dynamically filter the entire dashboard by material type and time period and they can also interact with the various graphs to filter the data to narrow down to specific areas to identify root causes, and monitor the impact of the corporate sustainability initiatives over time.
@@ -188,13 +188,18 @@ We can use this graph to support vendor negotiations and select them based on th
 ## **🌫 Emissions by Material Type**
 ![image](https://github.com/user-attachments/assets/6694cb0a-859f-413c-99c6-637ced458eff)
 
-- **Bar Chart:** Compares carbon footprint across Compostable, Recyclable, and Plastic.
-- **Insight:** Identify which materials contribute most to emissions and adjust procurement accordingly.
+### **Insights**
+The bar chart is relatively simple but effective and is a good breakdown of total emissions by broad material categories: Compostable, Plastic, and Recyclable. The chart indicates that Plastic is the highest contributing category (2,412 units) in this view, and therefore should be prioritized for reduction.
 
-## **♻️ Plastic Usage & Recyclability Over Time**
+## **♻️ Material Usage & Recyclability Over Time**
+![image](https://github.com/user-attachments/assets/caeee697-1d83-4389-b004-dd8a7418629a)
 
-- **Line Chart:** Displays trends in material usage (esp. recycled PET) across months.
-- **Insight:** Track the progress of recycling efforts and reduction in plastic dependency.
+### **Insights**
+This dual-axis line chart provides a time-series analysis of material trends from January 2023 to December 2024.
+- **Material Weight Kg (Blue Line, Left Axis):** Tracks the total weight of packaging material used each month.
+- **Recyclability Rate (%) (Red Line, Right Axis):** Tracks the overall recyclability rate of the materials used.
+
+This visualisation aims to showcase the relationship between material consumption and sustainability performance so that long-term patterns can be recognized and the effect of cost-savings or environmental initiatives can be examined.
 
 **📊 Data Insights**
 

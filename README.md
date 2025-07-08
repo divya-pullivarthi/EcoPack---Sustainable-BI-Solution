@@ -176,7 +176,7 @@ The individual products (e.g., P14, P10, P8) are represented in the vertical bar
 ![image](https://github.com/user-attachments/assets/b176a046-c976-418c-bf94-74a8563bc859)
 
 ### **Insights**
-This bar chart shows the Extended Producer Responsibility (EPR) compliance rates for each packaging material (i.e., Aluminum, Glass, HDPE, LDPE). These elements are important to consider to assess regulatory risk and determine whether the materials you are using are legal and compliant with corporate standards. Insights showed that materials like bagasse had much lower compliance than glass or corrugated materials.
+This bar chart shows the Extended Producer Responsibility (EPR) compliance rates for each packaging material (i.e., Aluminum, Glass, HDPE, LDPE). These elements are important to consider to assess regulatory risk and determine whether the materials you are using are legal and compliant with corporate standards. Insights showed that materials like bagasse had much lower compliance than glass or corrugated cardboard.
 
 ## **🏆 Top Sustainable Supplier by ESG Score**
 ![image](https://github.com/user-attachments/assets/e86d4cdb-5358-480a-9f5c-9b0f0d4cd294)

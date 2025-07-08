@@ -134,7 +134,7 @@ The EcoPack dashboard was designed to provide business stakeholders and sustaina
 
 ## **🔍 Dashboard**
 
-![image](https://github.com/user-attachments/assets/8d2cbab3-0196-48cf-bc9a-44d9efd2c1de)
+![image](https://github.com/user-attachments/assets/a0b94b4e-5765-4dca-a1c8-6d1da184bedd)
 ### **Insights**
 - Provides a consolidated view of packaging cost, carbon footprint, material sustainability, and supplier ESG performance.
 - Helps identify cost inefficiencies and environmental hotspots.
@@ -142,7 +142,7 @@ The EcoPack dashboard was designed to provide business stakeholders and sustaina
 - Supports strategic decision-making through scenario comparisons.
 
 ## **🎛 Filters and Control**
-![image](https://github.com/user-attachments/assets/a32685dd-e548-4e29-849c-4f3b1e2dc5e7)
+![image](https://github.com/user-attachments/assets/1728e717-2958-43c4-b375-ee57a8c9d9a3)
 
 ### **Insights**
 - **Material Type Selector:** Filter by Plastic, Compostable, Recyclable or All to compare sustainability performance.
@@ -150,7 +150,7 @@ The EcoPack dashboard was designed to provide business stakeholders and sustaina
 - **EPR Compliance Flag:** Focus on compliant/non-compliant materials for regulatory tracking.
 
 ## **📌 Key Metrics**
-![image](https://github.com/user-attachments/assets/2b0b2497-f146-4870-a209-43133192c1f4)
+![image](https://github.com/user-attachments/assets/86ebaf67-290e-4f40-9775-e219a60b190c)
 
 ### **Insights**
 - Average Packaging Cost per Product: Tracks cost-efficiency and budgeting needs.
@@ -159,37 +159,37 @@ The EcoPack dashboard was designed to provide business stakeholders and sustaina
 - These KPIs serve as quick-glance indicators of overall operational and environmental performance.
 
 ## **💰 Packaging Cost by Product**
-![image](https://github.com/user-attachments/assets/8fdfbcc6-07fa-4fd0-869f-8a19fb9e2573)
+![image](https://github.com/user-attachments/assets/ad6a49f1-83d7-4486-8e70-118e6836346e)
 
 ### **Insights**
 - **Bar Chart:** Highlights the top 5 products incurring the highest packaging costs.
 - **Insight:** Prioritize optimization efforts on these high-impact products.
 
-✅ EPR Compliance by Material Type
+## **✅ EPR Compliance by Material Type**
+![image](https://github.com/user-attachments/assets/b176a046-c976-418c-bf94-74a8563bc859)
 
-Bar Chart: Shows EPR performance of materials like HDPE, PET, PLA, and more.
+### **Insights**
+- **Bar Chart:** Shows EPR performance of materials like HDPE, PET, PLA, and more.
+- **Insight:** Helps identify low-performing materials for regulatory risks and substitution planning.
 
-Insight: Helps identify low-performing materials for regulatory risks and substitution planning.
+## **🏆 Top Sustainable Supplier by ESG Score**
+![image](https://github.com/user-attachments/assets/e86d4cdb-5358-480a-9f5c-9b0f0d4cd294)
 
-🏆 Top Sustainable Supplier by ESG Score
+- **Table View:** Ranks suppliers by ESG scores and EPR compliance.
+- **Insight:** Supports vendor negotiations and selection based on sustainability values.
 
-Table View: Ranks suppliers by ESG scores and EPR compliance.
+## **🌫 Emissions by Material Type**
+![image](https://github.com/user-attachments/assets/6694cb0a-859f-413c-99c6-637ced458eff)
 
-Insight: Supports vendor negotiations and selection based on sustainability values.
+- **Bar Chart:** Compares carbon footprint across Compostable, Recyclable, and Plastic.
+- **Insight:** Identify which materials contribute most to emissions and adjust procurement accordingly.
 
-🌫 Emissions by Material Type
+## **♻️ Plastic Usage & Recyclability Over Time**
 
-Bar Chart: Compares carbon footprint across Compostable, Recyclable, and Plastic.
+- **Line Chart:** Displays trends in material usage (esp. recycled PET) across months.
+- **Insight:** Track the progress of recycling efforts and reduction in plastic dependency.
 
-Insight: Identify which materials contribute most to emissions and adjust procurement accordingly.
-
-♻️ Plastic Usage & Recyclability Over Time
-
-Line Chart: Displays trends in material usage (esp. recycled PET) across months.
-
-Insight: Track the progress of recycling efforts and reduction in plastic dependency.
-
-📊 Data Insights
+**📊 Data Insights**
 
 
 Tableau Public: https://public.tableau.com/app/profile/divya.pullivarthi/viz/EcoPack_Dashboard1/Dashboard3?publish=yes

@@ -170,15 +170,13 @@ These KPIs serve as quick-glance indicators of overall operational and environme
 ![image](https://github.com/user-attachments/assets/ad6a49f1-83d7-4486-8e70-118e6836346e)
 
 ### **Insights**
-- **Bar Chart:** Highlights the top 5 products incurring the highest packaging costs.
-- **Insight:** Prioritize optimization efforts on these high-impact products.
+The individual products (e.g., P14, P10, P8) are represented in the vertical bar chart to rank packaging costs collectively. This allows the viewer to see what packaging costs are highest and could form the basis for a cost-reduction strategy or associated cost-optimization initiatives. The color scale associated with the products is consistent with the EPR_Flag, which could reflect a link between cost and compliance.
 
 ## **✅ EPR Compliance by Material Type**
 ![image](https://github.com/user-attachments/assets/b176a046-c976-418c-bf94-74a8563bc859)
 
 ### **Insights**
-- **Bar Chart:** Shows EPR performance of materials like HDPE, PET, PLA, and more.
-- **Insight:** Helps identify low-performing materials for regulatory risks and substitution planning.
+This bar chart shows the Extended Producer Responsibility (EPR) compliance rates for each packaging material (i.e., Aluminum, Glass, HDPE, LDPE). These elements are important to consider to assess regulatory risk and determine whether the materials you are using are legal and compliant with corporate standards. Insights showed that materials like bagasse had much lower compliance than glass or corrugated materials.
 
 ## **🏆 Top Sustainable Supplier by ESG Score**
 ![image](https://github.com/user-attachments/assets/e86d4cdb-5358-480a-9f5c-9b0f0d4cd294)

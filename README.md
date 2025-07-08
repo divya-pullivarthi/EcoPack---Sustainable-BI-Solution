@@ -148,11 +148,14 @@ This dashboards in short helps by:
 ![image](https://github.com/user-attachments/assets/1728e717-2958-43c4-b375-ee57a8c9d9a3)
 
 ### **Insights**
-At the top of the dashboard, users are presented with the main filters and controls:
+One of the key features of this dashboard is that it is completely interactive and can therefore be analyzed and explored in a deeper way. This can be done in two ways:
 
-- **Material Type:** Allows users to focus the analysis on (All), Compostable, Plastic, or Recyclable materials.
-- **Date Range (Start/End Month):** Enables analysis of specific time periods, from January 2023 to December 2024.
-- **EPR_Flag:** A color legend that visually segments data based on Extended Producer Responsibility (EPR) compliance status.
+- **Global Filters:** It is simple to govern the scope of the entire dashboard using the easy to use controls at the top of the view including:
+    - **Material Type:** Allows users to focus the analysis on (All), Compostable, Plastic, or Recyclable materials.
+    - **Date Range (Start/End Month):** Enables analysis of specific time periods, from January 2023 to December 2024.
+    - **EPR_Flag:** A color legend that visually segments data based on Extended Producer Responsibility (EPR) compliance status.
+      
+- **Action Filters:** In addition to global controls, the dashboard uses action filters to support interaction across charts. Clicking on a data point in any chart (e.g. clicking 'Plastic' in the Emissions by Material Type, or clicking 'P14' in the Packaging Cost by Product) will instantly filter all other visualizations. This powerful aspect of the dashboard enables the user to isolate a specific product, material, or supplier and instantly see how it is performing across all other metrics in the dashboard, from ESG scores to monthly usage trends.
 
 ## **📌 Key Performance Indicators (KPIs)**
 These cards provide an at a glance summary of the most critical metrics for the selected period.
@@ -201,8 +204,17 @@ This dual-axis line chart provides a time-series analysis of material trends fro
 
 This visualisation aims to showcase the relationship between material consumption and sustainability performance so that long-term patterns can be recognized and the effect of cost-savings or environmental initiatives can be examined.
 
-**📊 Data Insights**
+## **📊 Dashboard Overall Insights as a Analyst**
 
+### **Insights 1: The Plastic Dilemma — Low Cost, High Environmental Price**
+![image](https://github.com/user-attachments/assets/2b2d264d-e853-4f6e-a24a-f3d73b62fe90)
+When we look at the dashboard with all materials included, the Emissions by Material Type chart tells us and see where our major issue lies: Plastics accounts for 2,412 units of CO2, more than 53% of all emissions. 
+To understand why, we can filter the entire dashboard to only the "Plastic" material type. 
+**KPIs:** The Average Packaging Cost per Product drops to $124.62 (below the overall average of $133.30), but the Average Carbon Footprint jumps to 3.456 (well above the overall 2.353). This proves plastic is a cheap financial investment with a significant environmental cost. 
+**Critical Finding:** The Material Usage and Recyclability chart shows that there is a major red flag. When looking at recyclability, for the entire 2-year period, the Recyclability Rate (%) is flat at 0%. This indicates that the plastics we are classifying here are either non-recyclable or we are not tracking recyclability. This is a serious issue. 
+**Conclusion:** Our biggest driver of CO2 emissions is plastics which are low cost, and either non-recyclable or not tracked. 
+
+### **Insights 2: The Plastic Dilemma — Low Cost, High Environmental Price**
 
 Tableau Public: https://public.tableau.com/app/profile/divya.pullivarthi/viz/EcoPack_Dashboard1/Dashboard3?publish=yes
 

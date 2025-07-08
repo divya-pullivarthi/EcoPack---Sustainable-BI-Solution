@@ -133,30 +133,38 @@ Although the current dataset is a single table, we can logically separate the fi
 The EcoPack dashboard was designed to provide business stakeholders and sustainability teams with rich, actionable insights. It allows users to make informed decisions about packaging strategies, reduce environmental impact, and optimize supplier choices. Here's a detailed breakdown of each component:
 
 ## **🔍 Dashboard**
-
 ![image](https://github.com/user-attachments/assets/a0b94b4e-5765-4dca-a1c8-6d1da184bedd)
+
 ### **Insights**
+This interactive dashboard offers a rounded and comprehensive view of EcoPack’s sustainable packaging initiatives. It .was designed to assist its team decision-makers in procurement, sustainability, and product management to track relevant metrics, observe trends, and ultimately make data-driven decisions. The dashboard combines data related to financial costs, environmental benefits (e.g., CO2 emissions), legal compliance (e.g., EPR), and supplier performance (e.g., ESG) to help EcoPack seemingly juggle its environmentally responsible goals and objectives with its business asset objectives. Users can dynamically filter the entire dashboard by material type and time period and they can also interact with the various graphs to filter the data to narrow down to specific areas to identify root causes, and monitor the impact of the corporate sustainability initiatives over time.
+
+This dashboards in short helps by:
 - Provides a consolidated view of packaging cost, carbon footprint, material sustainability, and supplier ESG performance.
 - Helps identify cost inefficiencies and environmental hotspots.
 - Facilitates proactive compliance with EPR/ESG regulations.
 - Supports strategic decision-making through scenario comparisons.
 
-## **🎛 Filters and Control**
+## **🎛 Interactive Filters and Control**
 ![image](https://github.com/user-attachments/assets/1728e717-2958-43c4-b375-ee57a8c9d9a3)
 
 ### **Insights**
-- **Material Type Selector:** Filter by Plastic, Compostable, Recyclable or All to compare sustainability performance.
-- **Record Date Slider:** Explore time-based trends for usage, emissions, and cost.
-- **EPR Compliance Flag:** Focus on compliant/non-compliant materials for regulatory tracking.
+At the top of the dashboard, users are presented with the main filters and controls:
 
-## **📌 Key Metrics**
+- **Material Type:** Allows users to focus the analysis on (All), Compostable, Plastic, or Recyclable materials.
+- **Date Range (Start/End Month):** Enables analysis of specific time periods, from January 2023 to December 2024.
+- **EPR_Flag:** A color legend that visually segments data based on Extended Producer Responsibility (EPR) compliance status.
+
+## **📌 Key Performance Indicators (KPIs)**
+These cards provide an at a glance summary of the most critical metrics for the selected period.
 ![image](https://github.com/user-attachments/assets/86ebaf67-290e-4f40-9775-e219a60b190c)
 
 ### **Insights**
-- Average Packaging Cost per Product: Tracks cost-efficiency and budgeting needs.
-- Average Carbon Footprint: Measures average environmental impact across products.
-- Total CO2 Emissions: Summarizes overall footprint and effectiveness of reduction strategies.
-- These KPIs serve as quick-glance indicators of overall operational and environmental performance.
+
+- **Avg. Packaging Cost per Product:** Shows the average financial cost associated with packaging for each product. So it tracks cost-efficiency and budgeting needs.
+- **Average Carbon Footprint:** Displays the average carbon footprint  per product or package. It measures average environmental impact across products.
+- **Total CO2 Emissions:** Aggregates the total carbon dioxide emissions footprints, providing a measure of the overall environmental impact and effectiveness of reduction strategies.
+
+These KPIs serve as quick-glance indicators of overall operational and environmental performance.
 
 ## **💰 Packaging Cost by Product**
 ![image](https://github.com/user-attachments/assets/ad6a49f1-83d7-4486-8e70-118e6836346e)

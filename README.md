@@ -207,14 +207,28 @@ This visualisation aims to showcase the relationship between material consumptio
 ## **📊 Dashboard Overall Insights as a Analyst**
 
 ### **Insights 1: The Plastic Dilemma — Low Cost, High Environmental Price**
+**Image 1**
 ![image](https://github.com/user-attachments/assets/2b2d264d-e853-4f6e-a24a-f3d73b62fe90)
+
+**Image 2**
+![image](https://github.com/user-attachments/assets/d13eb6c8-741a-42d1-a6a1-18113ec8f77e)
 When we look at the dashboard with all materials included, the Emissions by Material Type chart tells us and see where our major issue lies: Plastics accounts for 2,412 units of CO2, more than 53% of all emissions. 
 To understand why, we can filter the entire dashboard to only the "Plastic" material type. 
 **KPIs:** The Average Packaging Cost per Product drops to $124.62 (below the overall average of $133.30), but the Average Carbon Footprint jumps to 3.456 (well above the overall 2.353). This proves plastic is a cheap financial investment with a significant environmental cost. 
 **Critical Finding:** The Material Usage and Recyclability chart shows that there is a major red flag. When looking at recyclability, for the entire 2-year period, the Recyclability Rate (%) is flat at 0%. This indicates that the plastics we are classifying here are either non-recyclable or we are not tracking recyclability. This is a serious issue. 
 **Conclusion:** Our biggest driver of CO2 emissions is plastics which are low cost, and either non-recyclable or not tracked. 
 
-### **Insights 2: The Plastic Dilemma — Low Cost, High Environmental Price**
+### **Insights 2: The Trade-off of Compostable & Recyclable Filters**
+**Image 1**
+![image](https://github.com/user-attachments/assets/f6d226e4-c56d-4130-9e1a-7370d0b70dc6)
+
+**Image 2**
+![image](https://github.com/user-attachments/assets/7edefb51-28f2-431e-b99c-fc573d5bf3ec)
+
+If plastic is the problem, then what about alternatives? 
+If we filter on "Compostable" our story looks a bit different. 
+**KPIs:** We have the highest Average Packaging Cost per Product at $136.95, but the lowest Total CO2 Emission rate at 690.2 for what is also the lowest category.
+**Regulatory Risk:** However, looking at the EPR Compliance the chart tells me Bagasse, which explains much of the compostable trend, has a 29.2% compliance rate, and while cleaner, presents some regulatory risk we need to mitigate.
 
 Tableau Public: https://public.tableau.com/app/profile/divya.pullivarthi/viz/EcoPack_Dashboard1/Dashboard3?publish=yes
 

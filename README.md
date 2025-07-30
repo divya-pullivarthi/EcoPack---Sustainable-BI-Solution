@@ -1,6 +1,14 @@
 # EcoPack---Sustainable-BI-Solution
 ### Business Intelligence and Analytics Systems - Final Project
 
+## **🌍 Introduction / Background**
+
+The global packaging industry, valued at over $1 trillion in 2023, is under pressure due to its role in plastic pollution, with plastic packaging alone accounting for 46% of global plastic waste (UNEP, 2021). With more than 141 million tonnes of plastic packaging waste generated annually, governments and consumers are demanding urgent action (OECD, 2022).
+
+Retailers and e-commerce platforms that rely heavily on plastic-heavy secondary and tertiary packaging are key contributors. Consumers are shifting toward eco-conscious choices, with 74% stating they are willing to pay more for sustainable packaging (McKinsey, 2022). Regulatory actions like the EU Single-Use Plastics Directive and India’s plastic ban are accelerating the need for smarter packaging strategies.
+
+EcoPack is a data-driven platform designed to help companies make informed, sustainable packaging decisions. It uses cloud computing, AI, and lifecycle analysis to suggest cost-effective, environmentally responsible alternatives.
+
 ## 📖 Table of Contents
 - [🌍 Introduction / Background](#-introduction--background)
 - [🎯 Business Objective](#-business-objective)
@@ -22,15 +30,6 @@
   - [Insight 3: Drilling Down to Supplier Performance](#insight-3-drilling-down-to-supplier-performance)
 - [🚀 Live Dashboard](#live-dashboard)
 - [✍️ Author](#-author)
-
-
-## **🌍 Introduction / Background**
-
-The global packaging industry, valued at over $1 trillion in 2023, is under pressure due to its role in plastic pollution, with plastic packaging alone accounting for 46% of global plastic waste (UNEP, 2021). With more than 141 million tonnes of plastic packaging waste generated annually, governments and consumers are demanding urgent action (OECD, 2022).
-
-Retailers and e-commerce platforms that rely heavily on plastic-heavy secondary and tertiary packaging are key contributors. Consumers are shifting toward eco-conscious choices, with 74% stating they are willing to pay more for sustainable packaging (McKinsey, 2022). Regulatory actions like the EU Single-Use Plastics Directive and India’s plastic ban are accelerating the need for smarter packaging strategies.
-
-EcoPack is a data-driven platform designed to help companies make informed, sustainable packaging decisions. It uses cloud computing, AI, and lifecycle analysis to suggest cost-effective, environmentally responsible alternatives.
 
 ## **🎯 Business Objective**
 

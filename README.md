@@ -1,5 +1,5 @@
 # EcoPack---Sustainable-BI-Solution
-### Still Editing this in the github - Business Intelligence and Analytics Systems - Final Project
+### Business Intelligence and Analytics Systems - Final Project
 
 ## **🌍 Introduction / Background**
 

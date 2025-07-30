@@ -157,9 +157,9 @@ These cards provide an at a glance summary of the most critical metrics for the 
 
 ### **Insights**
 
-- **Avg. Packaging Cost per Product:** Shows the average financial cost associated with packaging for each product, which is currently $133.30. So it tracks cost-efficiency and budgeting needs.
-- **Average Carbon Footprint:** Displays the average carbon footprint per product or package, currently at 2.353. It measures average environmental impact across products.
-- **Total CO2 Emissions:** Aggregates the total carbon dioxide emissions footprints, currently 4,481, providing a measure of the overall environmental impact and effectiveness of reduction strategies.
+- **Avg. Packaging Cost per Product:** Shows the average financial cost associated with packaging for each product, which is currently $129.13. So it tracks cost-efficiency and budgeting needs.
+- **Average Carbon Footprint:** Displays the average carbon footprint per product or package, currently at 2,293. It measures average environmental impact across products.
+- **Total CO2 Emissions:** Aggregates the total carbon dioxide emissions footprints, currently 2,022, providing a measure of the overall environmental impact and effectiveness of reduction strategies.
 
 These KPIs serve as quick-glance indicators of overall operational and environmental performance.
 
@@ -167,13 +167,13 @@ These KPIs serve as quick-glance indicators of overall operational and environme
 <img width="767" height="604" alt="image" src="https://github.com/user-attachments/assets/e3506631-7904-476d-8184-8c3c133e39b5" />
 
 ### **Insights**
-The individual products (e.g., P14, P10, P8) are represented in the horizontal bar chart to rank packaging costs collectively. This allows the viewer to see what packaging costs are highest and could form the basis for a cost-reduction strategy or associated cost-optimization initiatives. Product P14 stands out as the most expensive at $19,785.78. The color scale associated with the products is consistent with the EPR_Flag, which could reflect a link between cost and compliance.
+The individual products (e.g., P14, P10, P8) are represented in the horizontal bar chart to rank packaging costs collectively. This allows the viewer to see what packaging costs are highest and could form the basis for a cost-reduction strategy or associated cost-optimization initiatives. Product P14 stands out as the most expensive at $10,002.88. The color scale associated with the products is consistent with the EPR_Flag, which could reflect a link between cost and compliance.
 
 ## **✅ EPR Compliance by Material Type**
 <img width="1472" height="575" alt="image" src="https://github.com/user-attachments/assets/8d2c0235-2b83-442f-8f71-8cd3cf95bc5d" />
 
 ### **Insights**
-This bar chart shows the Extended Producer Responsibility (EPR) compliance rates for each packaging material (i.e., Aluminum, Bagasse, Corrugated, Glass, HDPE, LDPE, etc.). These elements are important to consider to assess regulatory risk and determine whether the materials you are using are legal and compliant with corporate standards. Insights showed that materials like Bagasse (at 29.2%) had much lower compliance than Glass (74.7%) or Corrugated cardboard (71.0%).
+This bar chart shows the Extended Producer Responsibility (EPR) compliance rates for each packaging material (i.e., Aluminum, Bagasse, Corrugated, Glass, HDPE, LDPE, etc.). These elements are important to consider to assess regulatory risk and determine whether the materials you are using are legal and compliant with corporate standards. Insights showed that materials like Bagasse (at 22.22%) had much lower compliance than Glass (70.8%) or Corrugated cardboard (84.09%).
 
 ## **🏆 Top Sustainable Supplier by ESG Score**
 <img width="1024" height="455" alt="image" src="https://github.com/user-attachments/assets/d1fddefa-b60c-4ddd-a62d-279eb5ceaf95" />
@@ -186,7 +186,7 @@ We can use this graph to support vendor negotiations and select them based on th
 <img width="1026" height="961" alt="image" src="https://github.com/user-attachments/assets/09b16a85-ce8d-49b9-87b9-f93836197ae1" />
 
 ### **Insights**
-The bar chart is relatively simple but effective and is a good breakdown of total emissions by broad material categories: Compostable, Plastic, and Recyclable. The chart indicates that Plastic is the highest contributing category at 2,412 units of emissions in this view, and therefore should be prioritized for reduction.
+The bar chart is relatively simple but effective and is a good breakdown of total emissions by broad material categories: Compostable, Plastic, and Recyclable. The chart indicates that Plastic is the highest contributing category at 1,045.7 units of emissions in this view, and therefore should be prioritized for reduction.
 
 ## **📈 Material Usage & Sustainability Performance**
 <img width="2260" height="811" alt="image" src="https://github.com/user-attachments/assets/58c5b177-f30e-4ae1-8381-1002dac12b21" />
@@ -206,7 +206,7 @@ When we filter the dashboard to show only Plastic materials, the core problem be
 
 <img width="3301" height="1838" alt="image" src="https://github.com/user-attachments/assets/31d6e219-d58e-4f21-8f52-413899f8bdc2" />
 
-- **The Story:** Plastic is, by far, our worst environmental offender. The Average Carbon Footprint skyrockets to 3.330 (the highest of any category), and it contributes a massive 1,046 units to our Total CO2 Emissions.
+- **The Story:** Plastic is, by far, our worst environmental offender. The Average Carbon Footprint skyrockets to 3,330 (the highest of any category), and it contributes a massive 1,046 units to our Total CO2 Emissions.
 - **The Why:** The Avg. Packaging Cost per Product at $121.60 is moderate, making it a financially tempting option. This creates a direct conflict between cost management and sustainability goals.
 - **Critical Finding:** The Material Usage & Sustainability Performance chart shows that the Weighted Avg. Rate (representing sustainability/compliance) fluctuates but remains low. The EPR Compliance chart confirms this, with materials like LDPE showing very low compliance (36.61%).
 - **Actionable Conclusion:** Our primary target for reduction must be plastic. The data allows us to be specific, focusing first on replacing low-compliance and high-emission plastics like LDPE, while investigating if higher-compliance plastics like HDPE (63.10%) can serve as a temporary bridge.
@@ -218,7 +218,7 @@ If plastic is the problem, what is the best solution? By filtering between Compo
 
 <img width="3295" height="1843" alt="image" src="https://github.com/user-attachments/assets/3f2e5832-9435-4802-ad25-909fea5ecd78" />
 
-- **The Upside:** Compostables are our cheapest alternative ($116.75 Avg. Cost) and have the lowest carbon impact (1.376 Avg. Carbon Footprint).
+- **The Upside:** Compostables are our cheapest alternative ($116.75 Avg. Cost) and have the lowest carbon impact (1,376 Avg. Carbon Footprint).
 - **The Downside:** They carry significant regulatory risk. The EPR Compliance for Bagasse is extremely low at 32.74%. This could expose the company to fines or brand damage.
 
 #### **The Recyclable Option: High Cost, High Compliance, Good-Enough Carbon**
@@ -234,7 +234,7 @@ Beyond material types, we can assess the performance of a specific partner. Filt
 
 <img width="3293" height="1840" alt="image" src="https://github.com/user-attachments/assets/0db290c8-abce-46fa-8c74-94f51d523c80" />
 
-- **The Story:** A quick look at the KPIs for ClearCycle shows they are a very expensive supplier ($160.82 Avg. Cost), with a relatively high carbon footprint (2.573).
+- **The Story:** A quick look at the KPIs for ClearCycle shows they are a very expensive supplier ($160.82 Avg. Cost), with a relatively high carbon footprint (2,573).
 - **The Material Mix:** The EPR Compliance chart reveals why. ClearCycle supplies us with both highly compliant materials like Glass (100%) and very low-compliance materials like Bagasse (26.3%). Their emissions are driven primarily by the plastic they supply.
 - **Actionable Conclusion:** This view provides concrete data for supplier negotiations. We can approach ClearCycle with specific questions:
     - Why are your overall costs so high compared to the market average?

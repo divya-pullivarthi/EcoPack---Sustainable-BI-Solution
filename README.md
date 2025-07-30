@@ -16,7 +16,7 @@
   - [🏆 Top Sustainable Supplier by ESG Score](#-top-sustainable-supplier-by-esg-score)
   - [🌫 Emissions by Material Type](#-emissions-by-material-type)
   - [📈 Material Usage & Sustainability Performance](#-material-usage--sustainability-performance)
-- [🕵️ Dashboard Insights as an Analyst](#-dashboard-insights-as-an-analyst)
+- [🕵️ Dashboard Insights as an Analyst](https://github.com/divya-pullivarthi/EcoPack---Sustainable-BI-Solution/blob/main/README.md#%EF%B8%8F-dashboard-insights-as-an-analyst)
   - [Insight 1: The Plastic Dilemma](#insight-1-the-plastic-dilemma---low-cost-high-environmental-price)
   - [Insight 2: The Compostable vs. Recyclable Trade-off](#insight-2-the-trade-off-of-compostable--recyclable-filters)
   - [Insight 3: Drilling Down to Supplier Performance](#insight-3-drilling-down-to-supplier-performance)

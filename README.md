@@ -16,7 +16,7 @@
   - [🏆 Top Sustainable Supplier by ESG Score](#-top-sustainable-supplier-by-esg-score)
   - [🌫 Emissions by Material Type](#-emissions-by-material-type)
   - [📈 Material Usage & Sustainability Performance](#-material-usage--sustainability-performance)
-- [🕵️ Dashboard Insights as an Analyst](https://github.com/divya-pullivarthi/EcoPack---Sustainable-BI-Solution/blob/main/README.md#%EF%B8%8F-dashboard-insights-as-an-analyst)
+- [🧑‍💻 Dashboard Insights as an Analyst](#-dashboard-insights-as-an-analyst)
   - [Insight 1: The Plastic Dilemma](#insight-1-the-plastic-dilemma---low-cost-high-environmental-price)
   - [Insight 2: The Compostable vs. Recyclable Trade-off](#insight-2-the-trade-off-of-compostable--recyclable-filters)
   - [Insight 3: Drilling Down to Supplier Performance](#insight-3-drilling-down-to-supplier-performance)
@@ -221,7 +221,7 @@ This dual-axis combination chart provides a time-series analysis of material usa
 
 This visualisation aims to showcase the relationship between material consumption and sustainability performance. Stakeholders can track how shifts in the material mix (e.g., reducing gray plastic area, increasing green recyclable area) affect the overall sustainability rate shown by the dark line. This allows for long-term pattern recognition and monitoring the impact of environmental initiatives.
 
-## 🕵️ Dashboard Insights as an Analyst
+## 🧑‍💻 Dashboard Insights as an Analyst
 The true power of the EcoPack dashboard lies in its interactivity. By applying filters, an analyst can move beyond high-level summaries to uncover deep, actionable insights and answer critical business questions. The following scenarios demonstrate how the dashboard facilitates this analysis.
 
 ### **Insight 1: The Plastic Dilemma - Low Cost, High Environmental Price**

@@ -1,6 +1,29 @@
 # EcoPack---Sustainable-BI-Solution
 ### Business Intelligence and Analytics Systems - Final Project
 
+## 📖 Table of Contents
+- [🌍 Introduction / Background](#-introduction--background)
+- [🎯 Business Objective](#-business-objective)
+- [⚡Current Situation and Opportunity](#-current-situation-and-opportunity-statement)
+- [🧱 Data Architecture & Flow](#-data-architecture--flow)
+  - [🔄 Data Lifecycle](#-data-lifecycle)
+- [📊 Dashboard Descriptions & Insights](#-dashboard-descriptions--insights)
+  - [🔍 Dashboard](#-dashboard)
+  - [🎛 Interactive Filters and Control](#-interactive-filters-and-control)
+  - [📌 Key Performance Indicators (KPIs)](#-key-performance-indicators-kpis)
+  - [💰 Packaging Cost by Product](#-packaging-cost-by-product)
+  - [✅ EPR Compliance by Material Type](#-epr-compliance-by-material-type)
+  - [🏆 Top Sustainable Supplier by ESG Score](#-top-sustainable-supplier-by-esg-score)
+  - [🌫 Emissions by Material Type](#-emissions-by-material-type)
+  - [📈 Material Usage & Sustainability Performance](#-material-usage--sustainability-performance)
+- [🕵️ Dashboard Overall Insights as an Analyst](#-dashboard-overall-insights-as-an-analyst)
+  - [Insight 1: The Plastic Dilemma](#insight-1-the-plastic-dilemma---low-cost-high-environmental-price)
+  - [Insight 2: The Compostable vs. Recyclable Trade-off](#insight-2-the-trade-off-of-compostable--recyclable-filters)
+  - [Insight 3: Drilling Down to Supplier Performance](#insight-3-drilling-down-to-supplier-performance)
+- [🚀 Live Dashboard](#live-dashboard)
+- [✍️ Author](#-author)
+
+
 ## **🌍 Introduction / Background**
 
 The global packaging industry, valued at over $1 trillion in 2023, is under pressure due to its role in plastic pollution, with plastic packaging alone accounting for 46% of global plastic waste (UNEP, 2021). With more than 141 million tonnes of plastic packaging waste generated annually, governments and consumers are demanding urgent action (OECD, 2022).
@@ -198,10 +221,10 @@ This dual-axis combination chart provides a time-series analysis of material usa
 
 This visualisation aims to showcase the relationship between material consumption and sustainability performance. Stakeholders can track how shifts in the material mix (e.g., reducing gray plastic area, increasing green recyclable area) affect the overall sustainability rate shown by the dark line. This allows for long-term pattern recognition and monitoring the impact of environmental initiatives.
 
-## **📊 Dashboard Overall Insights as a Analyst**
+## **🕵️ Dashboard Overall Insights as an Analyst**
 The true power of the EcoPack dashboard lies in its interactivity. By applying filters, an analyst can move beyond high-level summaries to uncover deep, actionable insights and answer critical business questions. The following scenarios demonstrate how the dashboard facilitates this analysis.
 
-### **Insights 1: The Plastic Dilemma - Low Cost, High Environmental Price**
+### **Insight 1: The Plastic Dilemma - Low Cost, High Environmental Price**
 When we filter the dashboard to show only Plastic materials, the core problem becomes immediately clear.
 
 <img width="3301" height="1838" alt="image" src="https://github.com/user-attachments/assets/31d6e219-d58e-4f21-8f52-413899f8bdc2" />
@@ -211,17 +234,17 @@ When we filter the dashboard to show only Plastic materials, the core problem be
 - **Critical Finding:** The Material Usage & Sustainability Performance chart shows that the Weighted Avg. Rate (representing sustainability/compliance) fluctuates but remains low. The EPR Compliance chart confirms this, with materials like LDPE showing very low compliance (36.61%).
 - **Actionable Conclusion:** Our primary target for reduction must be plastic. The data allows us to be specific, focusing first on replacing low-compliance and high-emission plastics like LDPE, while investigating if higher-compliance plastics like HDPE (63.10%) can serve as a temporary bridge.
 
-### **Insights 2: The Trade-off of Compostable & Recyclable Filters**
+### **Insight 2: The Trade-off of Compostable & Recyclable Filters**
 If plastic is the problem, what is the best solution? By filtering between Compostable and Recyclable materials, the dashboard reveals a crucial strategic trade-off.
 
-#### **The Compostable Option: Low Cost, Low Carbon, High Risk**
+**The Compostable Option: Low Cost, Low Carbon, High Risk**
 
 <img width="3295" height="1843" alt="image" src="https://github.com/user-attachments/assets/3f2e5832-9435-4802-ad25-909fea5ecd78" />
 
 - **The Upside:** Compostables are our cheapest alternative ($116.75 Avg. Cost) and have the lowest carbon impact (1,376 Avg. Carbon Footprint).
 - **The Downside:** They carry significant regulatory risk. The EPR Compliance for Bagasse is extremely low at 32.74%. This could expose the company to fines or brand damage.
 
-#### **The Recyclable Option: High Cost, High Compliance, Good-Enough Carbon**
+**The Recyclable Option: High Cost, High Compliance, Good-Enough Carbon**
 
 <img width="3308" height="1843" alt="image" src="https://github.com/user-attachments/assets/a5c05ec9-733d-4b70-95b5-a56e6b3166d4" />
 
@@ -243,7 +266,7 @@ Beyond material types, we can assess the performance of a specific partner. Filt
 
 This turns a general sustainability goal into a specific, data-driven conversation with a partner.
 
-## **Tableau Public:**
+## **Live Dashboard**
 https://public.tableau.com/views/EcoPack_Dashboard1/Dashboard3?:language=en-GB&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## **📌 Author**
@@ -252,13 +275,3 @@ Divya Pullivarthi
 Project completed for course IS 574: Business Intelligence and Analytics Systems
 
 LinkedIn
-
-
-
-
-
-
-
-
-
-
